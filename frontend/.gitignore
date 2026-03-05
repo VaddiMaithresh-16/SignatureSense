@@ -1,0 +1,78 @@
+############################
+# Node.js
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+############################
+# Environment Variables
+############################
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+############################
+# Build / Dist
+############################
+dist/
+build/
+out/
+coverage/
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# VS Code
+############################
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+############################
+# Zed Editor
+############################
+.zed/
+
+############################
+# Cursor Editor
+############################
+.cursor/
+.cursorignore
+
+############################
+# Temporary / Cache
+############################
+.tmp/
+.cache/
+.eslintcache
+.prettier-cache
+
+############################
+# Testing
+############################
+.nyc_output/
+
+############################
+# Optional: Lock files (keep ONE only)
+############################
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

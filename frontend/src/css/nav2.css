@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.nav2nav{
+    margin: 0;
+    background-color: hsla(194, 71%, 12%, 0.953);
+    height: 55px;
+    color:#fff;
+    position: relative;
+    z-index: 1030;
+}
+.bg-body-tertiary {
+    margin: 0;
+    padding: 0;
+  }
+.nav2drop{
+    margin-left: 20px;
+}
+
+.nav2drop .dropdown-menu {
+    z-index: 1050;
+}
+
+/* Position menu when shown (state-based, no Bootstrap JS Popper) */
+.nav2drop .dropdown-menu.show {
+    top: 100%;
+    right: 0;
+    left: auto;
+    margin-top: 0.125rem;
+}
